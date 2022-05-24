@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+header {
+  
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+#menu-h{
+  background-image: url("../img/backgroud-header.jpg");
+  width: 100%;
+  background-position-x: center;
+  background-size: 80%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#menu-h ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  height: 100px;
+
+}
+
+#menu-h ul li{
+  display: inline;
+}
+
+#menu-h ul li a{
+  color: rgb(2, 80, 8);
+  padding: 40px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+  
+}
+#menu-h ul li a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(142, 210, 255);
+  color: black;
+  box-shadow: 2px 2px 10px black;
+}
+
+/*CORPO*/
+.noticias{
+  width: 1000px;
+  background-color: rgba(223, 223, 223, 0.26);
+  padding: 20px;
+  box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.445);
+  margin-top: 25px;
+}
+.noticias .paragrafo {
+  margin-top: 20px;
+  text-align: justify;
+}
+.noticias h2{
+  margin-bottom: 30px;
+}
+.desc-img{
+  font-size: 15px;
+}
+.blocos{
+  margin-top: 50px;
+}
+.blocos h2{
+  margin-top: 30px;
+}
+.blocos ul{
+  padding: 25px;
+}
+.blocos h3{
+  margin-top: 30px;
+}
+
+/*RODATE*/
+#rodape{
+  margin-top: 50px;
+}
+#denuncia p{
+  font-weight: bolder
+}
+#denuncia p span{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline red; 
+}
